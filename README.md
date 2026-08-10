@@ -134,7 +134,7 @@ Antes de executar o projeto, tenha instalado:
 ### 2. Clone o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+https://github.com/GingerProgrammer/PetCrud.git
 ```
 
 Entre na pasta:
