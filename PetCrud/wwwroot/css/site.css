@@ -1,0 +1,183 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #fff5f8, #ffd6e7);
+    color: #5b3a42;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: #d4af37 !important;
+}
+
+    .navbar a {
+        color: white !important;
+        font-weight: bold;
+    }
+
+        .navbar a:hover {
+            color: #ffe6f0 !important;
+        }
+
+
+/* TODOS OS BOTÕES */
+.btn {
+    border-radius: 12px;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white !important;
+}
+
+
+/* BOTÃO CRIAR / CADASTRAR */
+.btn-primary {
+    background-color: #ff69b4 !important;
+    border-color: #ff69b4 !important;
+}
+
+    .btn-primary:hover {
+        background-color: #e7549d !important;
+        transform: scale(1.05);
+    }
+
+
+/* BOTÃO EXCLUIR */
+.btn-danger {
+    background-color: #c2185b !important;
+    border-color: #c2185b !important;
+}
+
+    .btn-danger:hover {
+        background-color: #9c1248 !important;
+        transform: scale(1.05);
+    }
+
+
+/* BOTÃO EDITAR / ATUALIZAR */
+.btn-warning {
+    background-color: #d4af37 !important;
+    border-color: #d4af37 !important;
+}
+
+    .btn-warning:hover {
+        background-color: #b89222 !important;
+        transform: scale(1.05);
+    }
+
+
+/* BOTÃO DETALHES */
+.btn-info {
+    background-color: #f4a6c1 !important;
+    border-color: #f4a6c1 !important;
+}
+
+    .btn-info:hover {
+        background-color: #ec6f9f !important;
+        transform: scale(1.05);
+    }
+
+
+/* BOTÃO VOLTAR */
+.btn-secondary {
+    background-color: #ffb6c1 !important;
+    border-color: #ffb6c1 !important;
+}
+
+    .btn-secondary:hover {
+        background-color: #ff69b4 !important;
+        transform: scale(1.05);
+    }
+
+
+/* CAMPOS DE TEXTO */
+.form-control {
+    border: 2px solid #f8b6c8;
+    border-radius: 10px;
+}
+
+    .form-control:focus {
+        border-color: #d4af37;
+        box-shadow: 0 0 8px rgba(212,175,55,0.5);
+    }
+
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+.card-header {
+    background-color: #ffb6c1;
+    color: #5b3a42;
+    font-weight: bold;
+}
+
+
+/* TITULOS */
+h1, h2, h3, h4 {
+    color: #c97b9d;
+}
+
+
+/* RODAPÉ */
+footer {
+    background-color: #d4af37;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+
+/* FOCO */
+.btn:focus,
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255,182,193,0.5);
+}
+
+#caixa2 a {
+    margin-right: 15px;
+ 
+}
+
+/* Espaço entre botões */
+.btn {
+    margin-right: 10px;
+}
+
+    /* Evita espaço extra no último botão */
+    .btn:last-child {
+        margin-right: 0;
+    }
+#mastrer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 140px;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+#bola {
+    display: flex;
+    margin-left: 20px;
+}
